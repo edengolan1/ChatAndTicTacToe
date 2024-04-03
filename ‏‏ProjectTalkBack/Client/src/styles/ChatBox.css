@@ -1,0 +1,117 @@
+.no-conversation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+    font-weight: bold;
+    background: linear-gradient(144deg, gray,#5b42f3 80%, #00ddeb);
+    border: 1px solid lightgray;
+}
+.chat-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+.title-chatbox {
+    width: 100%;
+    height: 2.7rem;
+    background: linear-gradient(144deg, gray,#5b42f3 80%, #00ddeb);
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 17px;
+    font-weight: bolder;
+}
+.inputText {
+    height: 20px;
+    background-color: #f0f0f0; 
+    border-radius: 50px; 
+    width: 40rem;
+    color: black;
+    background: linear-gradient(144deg, gray,#5b42f3 80%, #00ddeb);
+}
+.input-user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 6rem;
+    margin: 15px;
+}
+.input-user >div {
+    margin: 5px;
+}
+.scrollMessage {
+    height: 27rem;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.my-message > .message-box {
+    width: 10rem;
+    height: 100%;
+    background: linear-gradient(144deg, #5b42f3, #00ddeb 80%, lightgray);
+    border-radius: 10px;
+}
+.his-message > .message-box {
+    width: 10rem;
+    background: linear-gradient(144deg, #00ddeb,#5b42f3 80%, gray);
+    border-radius: 10px;
+}
+.my-message {
+    text-align: end;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.his-message {
+    display: flex;
+    justify-content: start;
+    text-align: start;
+    align-items: center;
+}
+.message-box {
+    padding: 10px;
+    margin: 7px;
+}
+.date-messagebox {
+    font-size: 13.5px;
+}
+.text-message-box {
+    font-size: 17px;
+}
+.send-message {
+    width: 2.8rem;
+    height: 2.8rem;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 36px;
+    cursor: pointer;
+}
+.link-to-game {
+    text-decoration: none;
+    color: black;
+}
+.div-link-game {
+    padding: 6px;
+    background-color: whitesmoke;
+    border-radius: 7px;
+}
+.chat-with {
+    color: whitesmoke;
+}
+@media screen and (max-width: 768px) {
+    .inputText {
+        width: 12rem;
+    }
+}

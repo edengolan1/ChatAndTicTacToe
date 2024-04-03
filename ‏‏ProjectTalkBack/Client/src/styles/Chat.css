@@ -1,0 +1,52 @@
+.Chats {
+    display: flex;
+    width: 100%;
+}
+.sideLeft {
+    width: 40%;
+    border: 2px solid lightgray;
+}
+.sideRight {
+    width: 60%;
+    border: 1px solid lightgray;
+    text-align: center;
+}
+.titleChats {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(144deg, gray,#5b42f3 80%, #00ddeb);
+}
+.potentialChats {
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid whitesmoke;
+}
+.divAllUsers {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+.title-users {
+    margin-left: 3.2rem;
+}
+@media screen and (max-width: 768px) {
+    .Chats {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .sideLeft {
+        width: 100%;
+        border: 2px solid lightgray;
+    }
+    .sideRight {
+        width: 100%;
+        border: 1px solid lightgray;
+        text-align: center;
+    }
+}

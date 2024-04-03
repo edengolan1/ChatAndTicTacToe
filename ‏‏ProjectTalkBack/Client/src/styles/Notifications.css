@@ -1,0 +1,15 @@
+.notification-count{
+    color: white;
+    position: absolute;
+    font-size: 14px;
+    top: 20px;
+    right: 140px;
+}
+.notifications {
+    position: absolute;
+    background: linear-gradient(144deg, #5b42f3, #00ddeb 80%, lightgray);
+    right: 29px;
+}
+.notification {
+    color:darkblue;
+}

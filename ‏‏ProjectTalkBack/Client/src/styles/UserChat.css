@@ -1,0 +1,62 @@
+.buttonUser {
+    width: 24rem;
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 1rem;
+    background: linear-gradient(144deg, gray,#5b42f3 80%, #00ddeb);
+}
+.user-online {
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: green;
+    position: absolute;
+}
+.sideRightInUser {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 40%;
+    margin-right: 12px;
+}
+.sideRightInUser>div {
+    margin: 3px;
+}
+.option-users {
+    display: flex;
+    flex-direction: row-reverse;
+    cursor: pointer;
+}
+.user-notefications {
+    background-color: blue;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    font-size: 13px;
+    text-align: center;
+    font-weight: bold;
+}
+.name-and-messageText {
+    text-align: start;
+}
+.date-message {
+    font-size: 15px;
+}
+.user-username {
+    font-size: 17px;
+    font-weight: bolder;
+}
+.user-message-text {
+    font-size: 16px;
+}
+@media screen and (max-width: 768px) {
+    .buttonUser {
+        width: 16rem;
+        height: 4rem;
+    }
+}

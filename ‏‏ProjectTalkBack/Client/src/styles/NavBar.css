@@ -1,0 +1,37 @@
+.navbar {
+    width: 100%;
+    height: 3.1rem;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:whitesmoke;
+}
+.buttons-navbar {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.buttons-navbar>div {
+    margin: 10px;
+    font-size: 18px;
+    font-weight: bolder;
+    cursor: pointer;
+    animation: bounce 1s;
+    color: black;
+}
+.buttons-navbar :hover {
+    color: lightgray;
+}
+.buttons-navbar>div>.link {
+    color: black;
+    text-decoration: none;
+}
+@keyframes bounce {
+    0% {
+        opacity: 0;
+    }
+    70% {
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+}
