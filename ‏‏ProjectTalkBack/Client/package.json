@@ -13,7 +13,6 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "avataaars": "^2.0.0",
     "hash-it": "^6.0.0",
     "howler": "^2.2.4",
     "jsonwebtoken": "^9.0.2",
